@@ -1,0 +1,19 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio Code settings
+.vscode/
+.history/
+
+# ASP.NET generated files
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.d*
