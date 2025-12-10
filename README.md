@@ -19,19 +19,42 @@ Returns a 5-day weather forecast with random temperature data.
 ]
 ```
 
-## Running the Application
+## Build and Run Instructions
 
-1. **Prerequisites:**
-   - .NET 9 SDK
+### Prerequisites
+- .NET 9 SDK
+- Git
 
-2. **Run locally:**
-   ```bash
-   dotnet run
-   ```
+### Clone the Repository
+```bash
+git clone https://github.com/dummyrepos/dotnetcoreexample.git
+cd dotnetcoreexample
+```
 
-3. **Access the API:**
-   - Development: `https://localhost:5001/weatherforecast`
-   - OpenAPI documentation: `https://localhost:5001/openapi/v1.json` (Development only)
+### Build the Application
+```bash
+dotnet build
+```
+
+### Run the Application
+```bash
+dotnet run
+```
+
+### Publish for Release
+```bash
+dotnet publish -c Release -o ./publish
+```
+
+### Run from Published Folder
+```bash
+cd publish
+dotnet DockerDotnetCore.dll
+```
+
+### Access the API
+- Development: `https://localhost:5001/weatherforecast`
+- OpenAPI documentation: `https://localhost:5001/openapi/v1.json` (Development only)
 
 ## Usage Examples
 

@@ -1,0 +1,52 @@
+# Ignore build artifacts
+bin/
+obj/
+out/
+publish/
+
+# User-specific files
+*.user
+*.suo
+
+# IDE folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Environment files (don’t send secrets!)
+*.env
+*.env.*
+
+# Node-related files inside wwwroot (if using frontend assets)
+wwwroot/node_modules/
+node_modules/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Dockerignore itself
+.dockerignore
