@@ -9,4 +9,4 @@ EXPOSE 5000
 COPY --from=builder /app/published /app
 WORKDIR /app
 ENV ASPNETCORE_URLS=http://+:5000
-CMD ["dotent", "DockerDotnetCore.dll"]
+CMD ["dotnet", "DockerDotnetCore.dll"]
